@@ -1,2 +1,2 @@
-# house_price_pridiction_app
+# house_price_prediction_app
 application by streamlit
