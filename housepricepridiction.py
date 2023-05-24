@@ -75,10 +75,6 @@ if menu=='Visualization':
         st.plotly_chart(fig) 
      
 if menu=='Price Prediction':
-    st.header('correlations')
-    fig=plt.figure(figsize=(35,12))
-    sns.heatmap(data.corr(),annot=True)
-    st.pyplot(fig)
 
     st.header(' predictions prices for houses')
     data.drop(['street','statezip','country'],axis=1,inplace=True)
